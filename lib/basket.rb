@@ -27,14 +27,3 @@ class Basket
 
 
 end
-
-
-
-# basket = Basket.new               # => #<Basket:0x007ffa7c062f10 @basket_items=[]>
-# basket.add_to_basket(:naan,1)     # => 1
-# basket.empty_basket               # => []
-# basket.add_to_basket(:naan,1)     # => 1
-# basket.add_to_basket(:paneer,1)   # => 1
-# basket.remove_basket_item(:naan)  # => :naan
-# basket.view_basket                # => [:paneer]
-# basket.basket_price               # => nil
